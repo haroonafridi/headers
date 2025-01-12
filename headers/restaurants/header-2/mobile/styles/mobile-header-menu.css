@@ -1,0 +1,60 @@
+.mobile-header-menu 
+{
+	display: none;
+	justify-content : center;
+	align-items : center;
+	 background-color : white;
+	position : absolute;
+	top: 50px;
+	min-width : 100vw;
+	text-align : center; 
+}
+
+.mobile-header-menu ul
+{
+	width: 100%;
+	background-color : maroon;
+	text-align : center;
+	padding-inline-start: 0px;
+}
+
+.mobile-header-menu ul > li
+{
+	margin : 0px;
+	min-width : 96vw;
+	min-height : 25px;
+	color : white;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-size : 16px;
+	width: 100%;
+	list-style-type: none;
+	border : 98%;
+}
+
+.mobile-header-menu ul > li:hover
+{
+	background-color: gray;
+	height: 30px;
+    text-align : center;
+    box-sizing: border-box;
+    color: blue;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 3px solid maroon;	
+}
+
+
+.mobile-link-menu
+{
+	text-decoration: none;
+	color : white;
+}
+
+.mobile-link-menu  > a:visited
+{
+	text-decoration: none;
+	color : black;
+}
+
