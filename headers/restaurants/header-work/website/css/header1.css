@@ -5,6 +5,7 @@
 .navbar {
     display: flex;
     margin-top: 52px;
+    border-top: solid,3px,black;
 }
 
 img {
