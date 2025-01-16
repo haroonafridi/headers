@@ -1,72 +1,60 @@
-* {
-    font-family: sans-serif;
+*{
+    font-family:sans-serif;
 }
-
-.navbar {
+.navbar{
     display: flex;
-    margin-top: 52px;
-    border-top: solid,3px,black;
+  margin-top: 52px;
 }
-
-img {
+img{
     height: 69.8px;
     margin-left: 113px;
 
 }
-
-a {
+a{
     text-decoration: none;
 }
-
-button {
+button{
     height: 38px;
     width: 170px;
     margin-top: 15px;
     margin-left: 20px;
     font-size: 16px;
     font-weight: 5;
-
+    
 }
-
-.logo-menu {
+.logo-menu{
     height: 30px;
     margin-left: 15px;
     margin-top: 20px;
-    font-weight: lighter;
+ font-weight: lighter;
 }
-
-.bar {
+.bar{
     font-size: 30px;
     margin-top: 20px;
     margin-left: 20px;
     font-weight: lighter;
 }
-
-.line {
+.line{
     font-size: 35px;
-    margin-top: 10px;
+  margin-top: 10px;
     margin-left: 10px;
 }
-
-.dig {
+.dig{
     height: 70px;
     margin-top: 25px;
-    margin-left: 80px;
+    margin-left: 80px ;
 }
 
-.digc {
+.digc{
     margin-left: 10px;
 }
-
-.digb {
+.digb{
     margin-left: 5px;
 }
-
-.diga {
+.diga{
     margin-left: 150px;
 }
-
-button:hover {
+button:hover{
     color: white;
     background-color: black;
 }
