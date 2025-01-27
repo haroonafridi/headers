@@ -1,47 +1,87 @@
-.web-header-logo 
-{
-  background-image : url("../images/logo/logo.svg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  object-fit: cover;
-  margin : 0px;
-  min-height : 100%;
-  min-width : 100%;
-  background-color: maroon;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
 }
 
-.web-header-container 
-{
-	margin : 0;
-	background-color : maroon;
-	display: flex;
-	flex-direction : row;
+.navbar {
+    background-color: rgb(51, 49, 49);
+    height: 50px;
+    display: flex;
 }
 
-.web-header-left-panel 
-{
-	background-color : yellow;
-	min-width: 10%;
+.logo {
+    height: 34px;
+    margin-left: 30px;
+    margin-top: 7px;
 }
 
-.web-header-menu-button-item 
-{
-		min-width : 160px;
-		gap : 5px;
+button {
+    background-color: rgb(51, 49, 49);
+    color: white;
+    border: solid, 1PX, white;
+    height: 29px;
+    width: 130px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: small;
 }
 
-.web-header-main-panel 
-{
-	background-color : maroon;
+a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    margin-top: 18px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
-.web-header-right-panel
-{
-	display: flex;
-	flex-direction : row;
-	justify-content: center;
-	place-items: center;
-	max-height: 100vh;
-	background-color : maroon;
+span {
+    color: white;
+    margin-top: 15px;
+
+}
+.a{
+    margin-left: 50px;
+}
+.buttons{
+    height: 40px;
+    background-color: rgb(51, 49, 49);
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+}
+.one{
+    margin-top: 7px;
+}
+.icona{
+    margin-left: 170px;
+    font-size: large;
+    opacity: 30%;
+}
+.iconb{
+    margin-left: 15px;
+    font-size: large;
+    opacity: 30%;
+}
+.iconc{
+    margin-left: 15px;
+    font-size: large;
+    opacity: 30%;
 }
 
+.ba:hover{
+   
+        color: black;
+        background-color: rgb(255, 255, 255);
+     
+        transition: all 1s,ease-in-out 0.3s;
+}
+.bb:hover{
+    
+        color: black;
+        background-color: rgb(255, 255, 255);
+        
+        transition: all 1s,ease-in-out 0.3s;
+
+ }

@@ -1,47 +1,47 @@
-.web-header-logo 
-{
-  background-image : url("../images/logo/logo.svg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  object-fit: cover;
-  margin : 0px;
-  min-height : 100%;
-  min-width : 100%;
-  background-color: maroon;
+* {
+    font-family: sans-serif;
 }
 
-.web-header-container 
-{
-	margin : 0;
-	background-color : maroon;
-	display: flex;
-	flex-direction : row;
+.navbar {
+    display: flex;
+    margin-top: 52px;
 }
 
-.web-header-left-panel 
-{
-	background-color : yellow;
-	min-width: 10%;
+span {
+    font-size: 40px;
+    margin-left: 70px;
 }
 
-.web-header-menu-button-item 
-{
-		min-width : 160px;
-		gap : 5px;
+.tag {
+    margin-top: 18px;
+
 }
 
-.web-header-main-panel 
-{
-	background-color : maroon;
+.a {
+    margin-left: 460px;
 }
 
-.web-header-right-panel
-{
-	display: flex;
-	flex-direction : row;
-	justify-content: center;
-	place-items: center;
-	max-height: 100vh;
-	background-color : maroon;
+.b {
+    margin-left: 70px;
 }
 
+.c {
+    margin-left: 50px;
+}
+
+.d {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.e {
+ margin-left: 30px;
+}
+
+.f {
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+}
