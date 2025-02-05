@@ -1,98 +1,96 @@
-.mobile-header 
-{
-  background-repeat: no-repeat;
-  background-size: auto;
-  object-fit: cover;
-  margin : 0px;
-  min-height : 45px;
-  min-width : 100%;
-  background-color: maroon;
+@media(min-width:0px) and (max-width: 430px) {
+	* {
+		font-family: sans-serif;
+	}
+
+	.navbar {
+		display: flex;
+		margin-top: 32px;
+	}
+
+	img {
+		height: 30px;
+		margin-left: 16px;
+
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	button {
+		height: 30px;
+		font-size: 10px;
+		border: 2px, solid, black;
+	}
+
+	.bar {
+		font-size: 30px;
+
+		margin-left: 60px;
+		font-weight: lighter;
+	}
+
+	button:hover {
+		color: white;
+		background-color: black;
+	}
+
+	.b1 {
+		margin-left: 70px;
+		width: 75px;
+	}
+
+	.b2 {
+		margin-left: 20px;
+		width: 60px;
+	}
 }
 
-.mobile-header-logo
-{
-	min-width : 20%;
-    background-image : url('../images/logo/logo.svg');
-	background-repeat: no-repeat;
-	background-size: auto;
-	object-fit: cover;
-	margin-left : 10px;
-	margin-right : 10px;
-    min-height : 45px;
-}
-.mobile-header-container 
-{
-	margin : 0;
-	display: flex;
-	flex-direction : row;
-	min-height : 45px;
-}
+@media(min-width:430px) and (max-width: 1280px) {
+	* {
+		font-family: sans-serif;
+	}
 
-.mobile-header-left-panel 
-{
-	min-width: 40%;
-	background-color : maroon;
-	color : black;
+	.navbar {
+		display: flex;
+		margin-top: 52px;
+	}
+
+	img {
+		height: 80px;
+		margin-left: 80px;
+
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	button {
+		height: 50px;
+		font-size: 28px;
+		border: 2px, solid, black;
+	}
+
+	.bar {
+		font-size: 50px;
+
+		margin-left: 80px;
+		font-weight: lighter;
+	}
+	button:hover {
+		color: white;
+		background-color: black;
+	}
+
+	.b1 {
+		margin-left: 70px;
+		width: 165px;
+	}
+
+	.b2 {
+		margin-left: 20px;
+		width: 110px;
+	}
 }
-
-
-.mobile-header-right-panel 
-{
-	min-width: 100%;
-	display: flex;
-	flex-direction : row;
-	align-content : center;
-	align-items : center;
-}
-
-.mobile-header-contact-us 
-{
-	max-width : 20%;
-	min-width : 20%;
-	background-repeat: no-repeat;
-	background-size: auto;
-	object-fit: cover;
-	margin : 0px;
-	min-height : 100%;
-}
-.mobile-header-menu-icons 
-{
-	background-repeat: no-repeat;
-	background-size: auto;
-	object-fit: cover;
-	margin : 0px;
-	background-color: maroon;
-	min-width : 10%;
-	min-height : 60%;
-	align-items : center;
-	align-content : center;
-	display: flex;
-	flex-direction : row;
-}
-.mobile-header-contact-sales
-{
-	background-image : url('../images/request-quotation/request-quote.png');
-}
-
-.mobile-header-login-resgister
-{
-	background-image : url('../images/login-register/login-register.png');
-}
-
-.mobile-header-chat-with-us
-{
-	background-image : url('../images/chat-with-us/chat-with-us.png');
-}
-
-
-.mobile-header-language
-{
-	background-image : url('../images/choose-language/DE.png');
-}
-
-.mobile-header-menu-open
-{
-	background-image : url('../images/menu-open-close/open/open.png');
-}
-
-
