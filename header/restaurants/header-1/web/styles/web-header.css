@@ -1,0 +1,217 @@
+* {
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    margin-top: 52px;
+}
+
+img {
+    height: 69.8px;
+    margin-left: 113px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    height: 38px;
+    width: 170px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 5;
+
+}
+
+.logo-menu {
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.bar {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+.line {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.dig {
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.digc {
+    margin-left: 10px;
+}
+
+.digb {
+    margin-left: 5px;
+}
+
+.diga {
+    margin-left: 150px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+@media(width:1024px){
+    * {
+        font-family: sans-serif;
+    }
+    
+    .navbar {
+        display: flex;
+        margin-top: 52px;
+    }
+    
+    img {
+        height: 49.8px;
+        margin-left: 53px;
+    
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    button {
+        height: 38px;
+        width: 170px;
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 5;
+    
+    }
+    
+    .logo-menu {
+        height: 30px;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-weight: lighter;
+    }
+    
+    .bar {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: lighter;
+    }
+    
+    .line {
+        font-size: 35px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .dig {
+        height: 70px;
+        margin-top: 25px;
+        margin-left: 80px;
+    }
+    
+    .digc {
+        margin-left: 10px;
+    }
+    
+    .digb {
+        margin-left: 5px;
+    }
+    
+    .diga {
+        margin-left: 80px;
+    }
+    
+    button:hover {
+        color: white;
+        background-color: black;
+    }
+}
+@media(width:1024px) and (height:600px){
+    * {
+        font-family: sans-serif;
+    }
+    
+    .navbar {
+        display: flex;
+        margin-top: 52px;
+    }
+    
+    img {
+        height: 49.8px;
+        margin-left: 53px;
+    
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    button {
+        height: 38px;
+        width: 170px;
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 5;
+    
+    }
+    
+    .logo-menu {
+        height: 30px;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-weight: lighter;
+    }
+    
+    .bar {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: lighter;
+    }
+    
+    .line {
+        font-size: 35px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .dig {
+        height: 70px;
+        margin-top: 25px;
+        margin-left: 80px;
+    }
+    
+    .digc {
+        margin-left: 10px;
+    }
+    
+    .digb {
+        margin-left: 5px;
+    }
+    
+    .diga {
+        margin-left: 80px;
+    }
+    
+    button:hover {
+        color: white;
+        background-color: black;
+    }
+}

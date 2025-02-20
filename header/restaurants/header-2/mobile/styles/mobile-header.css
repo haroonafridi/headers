@@ -1,0 +1,165 @@
+@media(width:375px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 100px;
+		margin-top: 29px;
+		margin-left: 230px;
+	}
+}
+
+@media(width:414px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 130px;
+		height: 50px;
+		font-size: 15px;
+		margin-top: 35px;
+		margin-left: 250px;
+	}
+}
+
+@media(width:360px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 100px;
+		margin-top: 30px;
+		margin-left: 220px;
+	}
+}
+
+@media(width:390px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 100px;
+		margin-top: 30px;
+		margin-left: 250px;
+	}
+}
+
+@media(width:430px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 100px;
+		margin-top: 30px;
+		margin-left: 270px;
+	}
+}
+
+@media(width:768px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 160px;
+		height: 50px;
+		font-size: 20px;
+		margin-top: 50px;
+		margin-left: 490px;
+	}
+}
+
+@media(width:820px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 190px;
+		height: 60px;
+		font-size: 23px;
+		margin-top: 50px;
+		margin-left: 517px;
+	}
+}
+
+@media(width:1024px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 200px;
+		height: 70px;
+		font-size: 26px;
+		margin-top: 70px;
+		margin-left: 677px;
+	}
+}
+
+@media(width:912px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 200px;
+		height: 70px;
+		font-size: 26px;
+		margin-top: 60px;
+		margin-left: 597px;
+	}
+}
+
+@media(width:540px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 100px;
+		margin-top: 40px;
+		margin-left: 360px;
+	}
+}
+
+@media(width:344px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 100px;
+		margin-top: 35px;
+		margin-left: 200px;
+	}
+}
+
+@media(width:853px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 200px;
+		height: 70px;
+		font-size: 26px;
+		margin-top: 60px;
+		margin-left: 577px;
+	}
+}
+
+@media(width:412px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 100px;
+		margin-top: 30px;
+		margin-left: 270px;
+	}
+}
+
+@media(width:1024px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 150px;
+		height: 50px;
+		font-size: 21px;
+		margin-top: 40px;
+		margin-left: 771px;
+	}
+}
+
+@media(width:1280px) {
+	button {
+		background-color: black;
+		color: aliceblue;
+		width: 150px;
+		height: 50px;
+		font-size: 21px;
+		margin-top: 70px;
+		margin-left: 999px;
+	}
+}
