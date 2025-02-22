@@ -1,0 +1,543 @@
+@media(width:375px){
+    footer{
+     background-color:rgb(31, 58, 32);
+    } 
+    h3{
+     color: aliceblue;
+     font-size: 30px;
+     margin-left: 40px;
+    }
+    .tag{
+     font-size: 18px;
+     color: white;
+     margin-left: 140px;
+     text-decoration: none;
+    }
+    .taga{
+     font-size: 18px;
+     color: white;
+     margin-left: 120px;
+     text-decoration: none;
+    }
+    .a{
+     margin-left: 140px;
+    }
+    .h3a{
+     margin-left: 90px;
+    }
+    .tagb{
+     font-size: 22px;
+     color: white;
+     margin-left: 170px;
+     text-decoration: none;
+     
+    }
+    .h3b{
+     margin-left: 90px;
+    }
+    .h3c{
+     margin-left: 120px;
+    }
+   .input{
+     height: 28px;
+     width: 220px;
+     margin-left: 70px;
+     border-radius: 20%;
+   }
+   button{
+ 
+ height: 28px;
+     width: 100px;
+     margin-left: 130px;
+     border-radius: 20%;
+   }
+ }
+ @media(width:414px){
+     footer{
+      background-color:rgb(48, 47, 47);
+     } 
+     h3{
+      color: aliceblue;
+      font-size: 30px;
+      margin-left: 40px;
+     }
+     .tag{
+      font-size: 18px;
+      color: white;
+      margin-left: 140px;
+      text-decoration: none;
+     }
+     .taga{
+      font-size: 18px;
+      color: white;
+      margin-left: 120px;
+      text-decoration: none;
+     }
+     .a{
+      margin-left: 140px;
+     }
+     .h3a{
+      margin-left: 90px;
+     }
+     .tagb{
+      font-size: 22px;
+      color: white;
+      margin-left: 170px;
+      text-decoration: none;
+      
+     }
+     .h3b{
+      margin-left: 90px;
+     }
+     .h3c{
+      margin-left: 120px;
+     }
+    .input{
+      height: 28px;
+      width: 220px;
+      margin-left: 70px;
+      border-radius: 20%;
+    }
+    button{
+  
+  height: 28px;
+      width: 100px;
+      margin-left: 130px;
+      border-radius: 20%;
+    }
+  }
+  @media(width:390px){
+     footer{
+      background-color:rgb(48, 47, 47);
+     } 
+     h3{
+      color: aliceblue;
+      font-size: 30px;
+      margin-left: 40px;
+     }
+     .tag{
+      font-size: 18px;
+      color: white;
+      margin-left: 140px;
+      text-decoration: none;
+     }
+     .taga{
+      font-size: 18px;
+      color: white;
+      margin-left: 120px;
+      text-decoration: none;
+     }
+     .a{
+      margin-left: 140px;
+     }
+     .h3a{
+      margin-left: 90px;
+     }
+     .tagb{
+      font-size: 22px;
+      color: white;
+      margin-left: 170px;
+      text-decoration: none;
+      
+     }
+     .h3b{
+      margin-left: 90px;
+     }
+     .h3c{
+      margin-left: 120px;
+     }
+    .input{
+      height: 28px;
+      width: 220px;
+      margin-left: 70px;
+      border-radius: 20%;
+    }
+    button{
+  
+  height: 28px;
+      width: 100px;
+      margin-left: 130px;
+      border-radius: 20%;
+    }
+  }
+  @media(width:430px){
+     footer{
+      background-color:rgb(48, 47, 47);
+     } 
+     h3{
+      color: aliceblue;
+      font-size: 30px;
+      margin-left: 40px;
+     }
+     .tag{
+      font-size: 18px;
+      color: white;
+      margin-left: 140px;
+      text-decoration: none;
+     }
+     .taga{
+      font-size: 18px;
+      color: white;
+      margin-left: 120px;
+      text-decoration: none;
+     }
+     .a{
+      margin-left: 140px;
+     }
+     .h3a{
+      margin-left: 90px;
+     }
+     .tagb{
+      font-size: 22px;
+      color: white;
+      margin-left: 170px;
+      text-decoration: none;
+      
+     }
+     .h3b{
+      margin-left: 90px;
+     }
+     .h3c{
+      margin-left: 120px;
+     }
+    .input{
+      height: 28px;
+      width: 220px;
+      margin-left: 70px;
+      border-radius: 20%;
+    }
+    button{
+  
+  height: 28px;
+      width: 100px;
+      margin-left: 130px;
+      border-radius: 20%;
+    }
+  }
+  @media(width:412px){
+     footer{
+      background-color:rgb(48, 47, 47);
+     } 
+     h3{
+      color: aliceblue;
+      font-size: 30px;
+      margin-left: 40px;
+     }
+     .tag{
+      font-size: 18px;
+      color: white;
+      margin-left: 140px;
+      text-decoration: none;
+     }
+     .taga{
+      font-size: 18px;
+      color: white;
+      margin-left: 120px;
+      text-decoration: none;
+     }
+     .a{
+      margin-left: 140px;
+     }
+     .h3a{
+      margin-left: 90px;
+     }
+     .tagb{
+      font-size: 22px;
+      color: white;
+      margin-left: 170px;
+      text-decoration: none;
+      
+     }
+     .h3b{
+      margin-left: 90px;
+     }
+     .h3c{
+      margin-left: 120px;
+     }
+    .input{
+      height: 28px;
+      width: 220px;
+      margin-left: 70px;
+      border-radius: 20%;
+    }
+    button{
+  
+  height: 28px;
+      width: 100px;
+      margin-left: 130px;
+      border-radius: 20%;
+    }
+  }
+  @media(width:360px){
+     footer{
+      background-color:rgb(48, 47, 47);
+     } 
+     h3{
+      color: aliceblue;
+      font-size: 30px;
+      margin-left: 40px;
+     }
+     .tag{
+      font-size: 18px;
+      color: white;
+      margin-left: 140px;
+      text-decoration: none;
+     }
+     .taga{
+      font-size: 18px;
+      color: white;
+      margin-left: 120px;
+      text-decoration: none;
+     }
+     .a{
+      margin-left: 140px;
+     }
+     .h3a{
+      margin-left: 90px;
+     }
+     .tagb{
+      font-size: 22px;
+      color: white;
+      margin-left: 170px;
+      text-decoration: none;
+      
+     }
+     .h3b{
+      margin-left: 90px;
+     }
+     .h3c{
+      margin-left: 120px;
+     }
+    .input{
+      height: 28px;
+      width: 220px;
+      margin-left: 70px;
+      border-radius: 20%;
+    }
+    button{
+  
+  height: 28px;
+      width: 100px;
+      margin-left: 130px;
+      border-radius: 20%;
+    }
+  }
+  @media(width:540px){
+     footer{
+      background-color:rgb(48, 47, 47);
+     } 
+     h3{
+      color: aliceblue;
+      font-size: 30px;
+      margin-left: 40px;
+     }
+     .tag{
+      font-size: 18px;
+      color: white;
+      margin-left: 140px;
+      text-decoration: none;
+     }
+     .taga{
+      font-size: 18px;
+      color: white;
+      margin-left: 120px;
+      text-decoration: none;
+     }
+     .a{
+      margin-left: 140px;
+     }
+     .h3a{
+      margin-left: 90px;
+     }
+     .tagb{
+      font-size: 22px;
+      color: white;
+      margin-left: 170px;
+      text-decoration: none;
+      
+     }
+     .h3b{
+      margin-left: 90px;
+     }
+     .h3c{
+      margin-left: 120px;
+     }
+    .input{
+      height: 28px;
+      width: 220px;
+      margin-left: 70px;
+      border-radius: 20%;
+    }
+    button{
+  
+  height: 28px;
+      width: 100px;
+      margin-left: 130px;
+      border-radius: 20%;
+    }
+  }
+  @media(width:344px){ 
+     footer{
+      background-color:rgb(48, 47, 47);
+     } 
+     h3{
+      color: aliceblue;
+      font-size: 30px;
+      margin-left: 40px;
+     }
+     .tag{
+      font-size: 18px;
+      color: white;
+      margin-left: 140px;
+      text-decoration: none;
+     }
+     .taga{
+      font-size: 18px;
+      color: white;
+      margin-left: 120px;
+      text-decoration: none;
+     }
+     .a{
+      margin-left: 140px;
+     }
+     .h3a{
+      margin-left: 90px;
+     }
+     .tagb{
+      font-size: 22px;
+      color: white;
+      margin-left: 170px;
+      text-decoration: none;
+      
+     }
+     .h3b{
+      margin-left: 90px;
+     }
+     .h3c{
+      margin-left: 120px;
+     }
+    .input{
+      height: 28px;
+      width: 220px;
+      margin-left: 70px;
+      border-radius: 20%;
+    }
+    button{
+  
+  height: 28px;
+      width: 100px;
+      margin-left: 130px;
+      border-radius: 20%;
+    }
+  }
+  @media(width:768px){ 
+   footer{
+    background-color:rgb(48, 47, 47);
+   } 
+   h3{
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 40px;
+   }
+   .tag{
+    font-size: 18px;
+    color: white;
+    margin-left: 140px;
+    text-decoration: none;
+   }
+   .taga{
+    font-size: 18px;
+    color: white;
+    margin-left: 120px;
+    text-decoration: none;
+   }
+   .a{
+    margin-left: 140px;
+   }
+   .h3a{
+    margin-left: 90px;
+   }
+   .tagb{
+    font-size: 22px;
+    color: white;
+    margin-left: 170px;
+    text-decoration: none;
+    
+   }
+   .h3b{
+    margin-left: 90px;
+   }
+   .h3c{
+    margin-left: 120px;
+   }
+  .input{
+    height: 38px;
+    width: 320px;
+    margin-left: 70px;
+    border-radius: 20%;
+  }
+  button{
+ 
+ height: 28px;
+    width: 100px;
+    margin-left: 130px;
+    border-radius: 20%;
+  }
+ }
+ @media(width:820px){ 
+   footer{
+    background-color:rgb(48, 47, 47);
+   } 
+   h3{
+    color: aliceblue;
+    font-size: 50px;
+    margin-left: 180px;
+   }
+   .tag{
+    font-size: 38px;
+    color: white;
+    margin-left: 340px;
+    text-decoration: none;
+   }
+   .taga{
+    font-size: 38px;
+    color: white;
+    margin-left: 290px;
+    text-decoration: none;
+   }
+   .a{
+    margin-left: 340px;
+   }
+   .h3a{
+    margin-left: 270px;
+   }
+   .tagb{
+    font-size: 52px;
+    color: white;
+    margin-left: 370px;
+    text-decoration: none;
+    
+   }
+   .h3b{
+    margin-left: 270px;
+   }
+   .h3c{
+    margin-left: 320px;
+   }
+  .input{
+    height: 48px; 
+    width: 420px;
+    margin-left: 210px;
+    border-radius: 20%;
+    font-size: 38px;
+  }
+  button{
+ 
+ height: 48px;
+    width: 200px;
+    margin-left: 330px;
+    border-radius: 20%;
+    font-size: 38px;
+  }
+ }
+ 
