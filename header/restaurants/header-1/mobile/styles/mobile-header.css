@@ -38,7 +38,7 @@ nav ul{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	margin-left: -110px;
+	margin-left: -100px;
 }
 nav li{
 	height: 50px;
@@ -74,6 +74,10 @@ nav a{
 .bar{
 	margin-top: -60px;
 	margin-left: -40px;
+}
+.menu{
+	margin-top: 26px;
+	font-size: 22px;
 }
 @media(min-width:800px){
 	.mob-img{
