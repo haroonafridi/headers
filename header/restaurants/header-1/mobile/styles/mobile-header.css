@@ -88,6 +88,396 @@ nav a{
 @media(width:375px){
 	.hideonmobile{
 		display: none;
+	}
 
+	.mob-img{
+		height: 30px;
+		margin-left: 10px;
+
+	}
+	button{
+		height: 22px;
+		width: 80px;
+		
+		margin-left: 20px;
+		font-size: 10px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 30px;
+	}
+}
+@media(width:414px){
+	.hideonmobile{
+		display: none;
+	}
+
+	.mob-img{
+		height: 44px;
+		margin-left: 10px;
+
+	}
+	button{
+		height: 28px;
+		width: 90px;
+		
+		margin-left: 20px;
+		font-size: 16px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 30px;
+	}
+}
+@media(width:390px){
+	.hideonmobile{
+		display: none;
+	}
+
+	.mob-img{
+		height: 35px;
+		margin-left: 10px;
+
+	}
+	button{
+		height: 25px;
+		width: 85px;
+		
+		margin-left: 20px;
+		font-size: 13px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 32px;
+	}
+}
+@media(width:430px){
+	.hideonmobile{
+		display: none;
+	}
+
+	.mob-img{
+		height: 50px;
+		margin-left: 10px;
+
+	}
+	button{
+		height: 30px;
+		width: 110px;
+		
+		margin-left: 20px;
+		font-size: 18px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 32px;
+	}
+}
+@media(width:412px){
+	.hideonmobile{
+		display: none;
+	}
+
+	.mob-img{
+		height: 40px;
+		margin-left: 10px;
+
+	}
+	button{
+		height: 32px;
+		width: 90px;
+		
+		margin-left: 20px;
+		font-size: 13px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 32px;
+	}
+}
+@media(width:375px){
+	.hideonmobile{
+		display: none;
+	}
+
+	.mob-img{
+		height: 30px;
+		margin-left: 10px;
+
+	}
+	button{
+		height: 22px;
+		width: 80px;
+		
+		margin-left: 20px;
+		font-size: 10px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 28px;
+	}
+}
+@media(width:360px){
+	.hideonmobile{
+		display: none;
+	}
+
+	.mob-img{
+		height: 30px;
+		margin-left: 10px;
+
+	}
+	button{
+		height: 22px;
+		width: 80px;
+		
+		margin-left: 20px;
+		font-size: 10px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 22px;
+	}
+}
+@media(width:768px){
+	
+	img{
+		height: 45px;
+		margin-left: 113px; 
+		margin-top: 23px;
+	 margin-left: -45px;
+	}
+	.mob-img{
+		height: 45px;
+		margin-left: 50px;
+
+	}
+	button{
+		height: 22px;
+		width: 80px;
+		
+		margin-left: 20px;
+		font-size: 10px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 22px;
+	}
+}
+@media(width:820px){
+	
+	img{
+		height: 45px;
+		margin-left: 113px; 
+		margin-top: 23px;
+	 margin-left: 35px;
+	}
+	
+	button{
+		height: 32px;
+		width: 110px;
+		
+		margin-left: 20px;
+		font-size: 19px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 22px;
+	}
+}
+@media(width:1024px){
+	
+	img{
+		height: 59px;
+		 
+		margin-top: 23px;
+	 margin-left: 65px;
+	}
+	
+	button{
+		height: 36px;
+		width: 160px;
+		
+		margin-left: 20px;
+		font-size: 23px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 22px;
+	}
+}
+@media(width:912px){
+	
+	img{
+		height: 55px;
+		margin-left: 113px; 
+		margin-top: 23px;
+	 margin-left: 35px;
+	}
+	
+	button{
+		height: 32px;
+		width: 110px;
+		
+		margin-left: 20px;
+		font-size: 19px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 22px;
+	}
+}
+@media(width:540px){
+	
+	.hideonmobile{
+		display: none;
+	}
+	.mob-img{
+		height: 56px;
+		margin-left: 50px;
+
+	}
+	button{
+		height: 32px;
+		width: 130px;
+		
+		margin-left: 20px;
+		font-size: 15px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 22px;
+	}
+}
+@media(width:344px){
+	
+	.hideonmobile{
+		display: none;
+	}
+	.mob-img{
+		height:34px;
+		margin-left: 20px;
+
+	}
+	button{
+		height: 22px;
+		width: 80px;
+		
+		margin-left: 17px;
+		font-size: 10px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 30px;
+		
+	}
+	.menu{
+		margin-top: 32px;
+		font-size: 22px;
+		margin-left: 10px;
+	}
+}
+@media(width:853px){
+	
+	
+	img{
+		height: 56px;
+		margin-left: 50px;
+
+	}
+	button{
+		height: 32px;
+		width: 100px;
+		
+		margin-left: 20px;
+		font-size: 15px;
+		font-weight: 5;
+		
+	}
+	.a{
+		margin-left: 40px;
+		
+	}
+	.menu{
+		margin-top: 26px;
+		font-size: 22px;
+	}
+}
+@media (min-width:800px){
+	.mob-img{
+		display: none;
 	}
 }
