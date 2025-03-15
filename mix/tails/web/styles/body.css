@@ -1,0 +1,479 @@
+* {
+    font-family: sans-serif
+}
+
+body {
+    background-color: rgb(252, 240, 226);
+}
+
+.image-place {
+    display: flex;
+    justify-content: center;
+
+}
+
+.first-image {
+
+    height: 610px;
+    width: 360px;
+}
+
+.sceond-image {
+    background-color: rgb(21, 24, 216);
+    height: 610px;
+    width: 360px;
+    margin-left: 10px;
+}
+
+.third-image {
+    background-color: rgb(21, 24, 216);
+    height: 610px;
+    width: 360px;
+    margin-left: 10px;
+}
+
+.img {
+    height: 610px;
+    width: 360px;
+
+}
+
+.div-header {
+    display: flex;
+    border: 8px, black, solid;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0;
+    width: 1100px;
+    margin-left: 117.5px;
+    font-size: larger;
+}
+
+.first-child {
+    font-size: 30px;
+
+    font-family: graphik Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.second-child {
+    margin-left: 810px;
+    font-size: smaller;
+    font-family: graphik Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.restaurant-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.restaurant-img {
+    width: 1100px;
+    height: 410px;
+}
+
+.restaurant-detail {
+    display: flex;
+    margin-left: 120px;
+
+}
+
+.para-first {
+    width: 632px;
+    font-size: 20px;
+}
+
+.para-sceond {
+    margin-left: 88px;
+    margin-top: 30px;
+    align-items: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.restaurant-photos {
+    display: flex;
+    justify-content: center;
+}
+
+.first-photo {
+
+    height: 610px;
+    width: 360px;
+}
+
+.second-photo {
+    background-color: rgb(21, 24, 216);
+    height: 610px;
+    width: 360px;
+    margin-left: 10px;
+}
+
+.third-photo {
+    background-color: rgb(21, 24, 216);
+    height: 610px;
+    width: 360px;
+    margin-left: 10px;
+}
+
+.restaurant-photos-details {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.first-photo-detail {
+    font-size: larger;
+    height: 410px;
+    width: 360px;
+    border: 1px, solid, black;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0cap;
+}
+
+.second-photo-detail {
+    font-size: larger;
+    height: 410px;
+    width: 360px;
+    margin-left: 10px;
+    border: 1px, solid, black;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0cap;
+}
+
+.third-photo-detail {
+    font-size: larger;
+    height: 410px;
+    width: 360px;
+    margin-left: 10px;
+    border: 1px, solid, black;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0cap;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+.heading {
+    display: flex;
+    border: 8px, black, solid;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0;
+    width: 1100px;
+    margin-left: 117.5px;
+    font-size: larger;
+}
+
+.heading-one {
+    font-size: 36px;
+}
+
+.heading-two {
+    margin-left: 780px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.offer-image {
+    display: flex;
+    justify-content: center;
+}
+
+.first-offer {
+
+    height: 610px;
+    width: 360px;
+}
+
+.second-offer {
+
+    height: 610px;
+    width: 360px;
+    margin-left: 10px;
+}
+
+.third-offer {
+
+    height: 610px;
+    width: 360px;
+    margin-left: 10px;
+}
+
+.offer-detail {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.offer-one-detail {
+    font-size: larger;
+    height: 210px;
+    width: 360px;
+    border: 1px, solid, black;
+
+    border-left: 0cap;
+    border-right: 0cap;
+}
+
+.offer-two-detail {
+    font-size: larger;
+    height: 210px;
+    width: 360px;
+    margin-left: 10px;
+    border: 1px, solid, black;
+
+    border-left: 0cap;
+    border-right: 0cap;
+}
+
+.offer-three-detail {
+    font-size: larger;
+    height: 210px;
+    width: 360px;
+    margin-left: 10px;
+    border: 1px, solid, black;
+    border-left: 0cap;
+    border-right: 0cap;
+}
+
+.prize {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 120px;
+    border: 1px, black, solid;
+    border-top: 0cap;
+    border-left: 0cap;
+    border-right: 0cap;
+    ;
+    width: 1100px;
+    height: 100px;
+    font-size: 19px;
+}
+
+.prize-one {
+    margin-left: -290px;
+}
+
+.prize-two {
+    margin-left: 20px;
+}
+
+.prize-three {
+    margin-left: 20px;
+}
+
+.final-container {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+.textdiv {
+
+    height: 610px;
+    width: 360px;
+    border: 1px, black, solid;
+    border-top: 0cap;
+    border-left: 0cap;
+    border-right: 0cap;
+    ;
+}
+
+.image-one {
+    background-color: rgb(21, 24, 216);
+    height: 610px;
+    width: 360px;
+    margin-left: 10px;
+}
+
+.image-two {
+    background-color: rgb(21, 24, 216);
+    height: 610px;
+    width: 360px;
+    margin-left: 10px;
+}
+
+.divtext {
+    font-size: 25px;
+}
+.team-heading {
+    display: flex;
+    border: 8px, black, solid;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0;
+    width: 1100px;
+    margin-left: 117.5px;
+    font-size: larger;
+    margin-top: 90px;
+}
+
+.team-heading-one {
+    font-size: 36px;
+    margin-top: 18px;
+}
+
+.team-heading-two {
+    margin-left: 780px;
+    font-size: 16px;
+    margin-top: 22px;
+    font-weight: lighter;
+}
+.team-pic {
+    display: flex;
+    justify-content: center;
+}
+.pic{
+    height: 490px;
+}
+.team-header{
+    
+    border: 1px, black, solid;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0;
+    width: 1100px;
+    margin-left: 117.5px;
+    font-size: 27px;
+    margin-top: 90px;
+    font-weight: 3px;
+
+}
+h6{
+    margin-top: 10px;
+}
+.team-detail{
+    display: flex;
+    justify-content: center;
+    border: 1px, black, solid;
+    border-top: 0cap;
+    border-left: 0cap;
+    border-right: 0;
+    width: 1100px;
+    margin-left: 117.5px;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: 10px
+}
+.span1{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 10px;
+   
+}
+.span2{
+    font-size: 17px;
+   
+}
+.pluse{
+    font-size: 21px;
+  font-weight: bolder;
+  margin-top: 10px;
+  
+ 
+}
+.team-detail:hover{
+    background-color: black;
+    color:white
+}
+.press-header {
+    display: flex;
+    border: 8px, black, solid;
+    border-bottom: 1px;
+    border-left: 0cap;
+    border-right: 0;
+    width: 1100px;
+    margin-left: 117.5px;
+    font-size: larger;
+    margin-top: 90px;
+}
+
+.press-heading-one {
+    font-size: 36px;
+    margin-top: 18px;
+}
+
+.press-heading-two {
+    margin-left: 780px;
+    font-size: 16px;
+    margin-top: 22px;
+    font-weight: lighter;
+}
+.years{
+    display: flex;
+    border: 1px, black, solid;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0;
+    width: 1100px;
+    margin-left: 117.5px;
+   
+    
+}
+.year{
+    margin-top: 10px;
+}
+.Year{
+    display: flex;
+    border: 1px, black, solid;
+    border-top: 0cap;
+    border-left: 0cap;
+    border-right: 0;
+    width: 800px;
+    margin-left: 417.5px;
+    flex-direction: column;
+ 
+}
+.year-no{
+    font-size: 17px;
+    height: 20px;
+    margin-top: 4px;
+}
+.year-no:hover{
+    background-color: black;
+    color: white;
+}
+.event-header {
+    display: flex;
+    border: 8px, black, solid;
+    border-bottom: 1px;
+    border-left: 0cap;
+    border-right: 0;
+    width: 1100px;
+    margin-left: 117.5px;
+    font-size: larger;
+    margin-top: 90px;
+}
+
+.event-heading-one {
+    font-size: 36px;
+    margin-top: 18px;
+}
+
+.event-heading-two {
+    margin-left: 780px;
+    font-size: 16px;
+    margin-top: 22px;
+    font-weight: lighter;
+}
+.event-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.event-img {
+    width: 1100px;
+    height: 410px;
+}
+.event-text{
+    width: 1100px;
+    margin-left: 117.5px;
+   font-size: 23px;
+}
