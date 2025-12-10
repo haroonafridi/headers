@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./styles/salon-website.css">
+    <title>full web</title>
+    
+</head>
+<body>
+    <div class="web">
+      <div class="first-container">
+        <div class="header">
+            <a class="nav-logo-holder"><img class="nav-logo" src="./photos-icons/demo-beauty-salon-logo-white.webp" alt="">
+            </a>
+            <div class="menu">
+                <a class="menu-item item-a" href="#">Home</a>
+                <a class="menu-item item-b" href="#">Story</a>
+                <a class="menu-item item-c" href="#">Services</a>
+                <a class="menu-item item-d" href="#">Wedding</a>
+                <a class="menu-item item-e" href="#">Review</a>
+                <a class="menu-item item-f" href="#">Contact</a>
+            </div>
+            <div class="button-holder"><button class="button">Let's talk</button></div>
+            <div class="sidebar">
+                <a class="cross"  onclick=hidesidbar() href="#"> <i class="fa-regular fa-circle-xmark"></i></a> 
+                       <a class="hide-menu-items a " href="#">Home</a>
+                       <a class="hide-menu-items " href="#">Story</a>
+                       <a class="hide-menu-items " href="#">Services</a>
+                       <a class="hide-menu-items " href="#">Wedding</a>
+                        <a class="hide-menu-items " href="#">Review</a>
+                        <a class="hide-menu-items " href="#">Contact</a>
+                   </div>
+                     
+                
+           <div class="bar"> 
+               
+               <a class="bars" onclick=showsidebar() href="#"> <i class="fa-solid fa-bars"></i></a>
+               </div> 
+          </div>
+        <div class="name">
+            <div class="first-name">Beauty</div>
+            <div class="last-name">studio</div>
+        </div> 
+        <div>
+            <p class="about-salon">A salon is an establishment dealing <br> with natural cosmetic treatments.</p>
+        </div>
+        <button class="btn">Book appointment</button>
+        <div class="circle">
+            <div class="text">
+                <p>-NATURAL - FACIALS - MAKE UP - HAIR STYLING </p>
+            </div>
+        </div>
+    </div>
+    <div class="award">
+        <div class="first">
+
+            <img class="image" src="./photos-icons/demo-beauty-salon-icon-01.webp" alt="">
+            <h3 class="year">Best beauty salon <span class="award-year">award 2023</span></h3>
+            <p class="salon-services">Multi award winning beauty salon services.</p>
+        </div>
+        <div class="discount">
+            <span class="makeup-discount">Get <span class="off">20%</span> off on bridal makeup</span><span
+                class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+    </div><br><br>
+    <div class="about-the-salon">
+        <div class="img">
+            <img class="IMG" src="./photos-icons/beautiful-asian-woman-isolated-pink.jpg" alt="">
+        </div> 
+        <div class="about-salon-text">
+            <p class="about">ABOUT THE SALON</p>
+            <h2>Body treatments. <br> Skin care beauty.</h2>
+            <p class="about-text">With over 35 years of experience footprint of over 400+ salons in 125 cities across
+                the length and
+                breadth of the country. We have developed a deep understanding of the beauty industry.</p>
+            <button class="story-button">About story</button>
+            <a class="circle-play"><i  class="fa-regular fa-circle-play  "></i> Luxury salon</a>
+        </div>
+    </div><br><br>
+    <div class="steps">
+        <div class="step-one">
+            <span class="num">01</span><span class="dash">--</span><span class="point">Excellent care</span>
+            <p class="description ">No compromises</p>
+        </div>
+        <div class="step-two"> <span class="num">02</span><span class="dash">--</span>
+            <span class="point">Cruelty Free</span>
+            <p class="description ">No tested on animals</p>
+        </div>
+        <div class="step-three"> <span class="num">03</span><span class="dash">--</span>
+            <span class="point">Certifiedexperts</span>
+            <p class="description ">Professisanal people</p>
+        </div>
+        
+    </div>
+    <br><br><hr>
+    <div class="services-header">
+        <div class="services-text-slot"><span class="services-text">BEAUTY SALON SERVICES</span></div>
+        <div class="services-slot"><span class="head-services">Makeup and hairstyles</span></div>
+    </div>
+    <div class="services-menu">
+        <div class="service-one a">
+            <div class="service-one-photo"></div><br>
+            <div class="service-description">
+                <span class="service-name">Hair treatment</span>
+                <p class="service-info">Advanced hair treatment</p>
+            </div>
+        </div>
+        <div class="service-two ">
+            <div class="service-two-photo"></div><br>
+            <div class="service-description">
+                <span class="service-name" >Reflexology</span>
+                <p class="service-info">Different amounts of pressure</p>
+            </div>
+        </div>
+        <div class="service-three ">
+            <div class="service-three-photo"></div><br>
+            <div class="service-description">
+                <span class="service-name">Makeup</span>
+                <p class="service-info">Rethink your lash look</p>
+            </div>
+        </div>
+    </div>
+    <div class="services-menu">
+        <div class="service-four  ">
+            <div class="service-four-photo"></div><br>
+            <div class="service-description">
+                <span class="service-name">Skin care</span>
+                <p class="service-info">Believe in your beauty</p>
+            </div>
+        </div>
+        <div class="service-five ">
+            <div class="service-five-photo"></div><br>
+            <div class="service-description">
+                <span class="service-name">Cosmetology</span>
+                <p class="service-info">Fabulous in every way</p>
+            </div>
+        </div> 
+        <div class="service-six ">
+            <div class="service-six-photo"></div><br>
+            <div class="service-description">
+                <span class="service-name" >Grooming</span>
+                <p class="service-info">Especially crafted to sui</p>
+            </div>
+        </div> 
+        
+    </div>
+    <div class="services-slot">
+        <div class="services-prices">
+            <div class="service-one-price">
+                <div class="service-one-icon"><img class="service-icon"
+                        src="./photos-icons/demo-beauty-salon-icon-02.webp" alt=""></div>
+                <div class="service-about">
+                    <span class="service-tag">Hair wash and dry</span>
+                    <p class="service-slogan">Quick hair wash and blow</p>
+                </div>
+                <span class="h4 first-service">$35</span>
+            </div>
+
+            <div class="service-three-price">
+                <div class="service-three-icon"><img class="service-icon"
+                        src="./photos-icons/demo-beauty-salon-icon-03.webp" alt=""></i></div>
+                <div class="service-about">
+                    <span class="service-tag">Express makeup</span>
+                    <p class="service-slogan">Lovely on your special day</p>
+                </div>
+                <span class="h4 second-service">$65</span>
+            </div>
+
+            <div class="service-five-price">
+                <div class="service-five-icon"><img class="service-icon"
+                        src="./photos-icons/demo-beauty-salon-icon-04.webp" alt=""></div>
+                <div class="service-about">
+                    <span class="service-tag">Haircut by expert</span>
+                    <p class="service-slogan">Get the best haircut</p>
+                </div>
+                <span class="h4 third-service">$25</span>
+            </div>
+
+        </div>
+
+        <div class="services-prices">
+            <div class="service-two-price">
+                <div class="service-two-icon"><img class="service-icon"
+                        src="./photos-icons/demo-beauty-salon-icon-05.webp" alt=""></div>
+                <div class="service-about">
+                    <span class="service-tag">New hair styling</span>
+                    <p class="service-slogan">Trendy and glam hair style</p>
+                </div>
+                <span class="h4 fourth-service">$25</span>
+            </div>
+            <div class="service-four-price">
+                <div class="service-four-icon"><img class="service-icon"
+                        src="./photos-icons/demo-beauty-salon-icon-06.webp" alt=""></div>
+                <div class="service-about">
+                    <span class="service-tag">Wash and plain dry</span>
+                    <p class="service-slogan">Advanced hair treatment</p>
+                </div>
+                <span class="h4 fifth-service">$45</span>
+            </div>
+            <div class="service-six-price">
+                <div class="service-six-icon"><img class="service-icon"
+                        src="./photos-icons/demo-beauty-salon-icon-07.webp" alt=""></div>
+                <div class="service-about">
+                    <span class="service-tag">Organic skin treatment</span>
+                    <p class="service-slogan">Reduce dryness from skin</p>
+                </div>
+                <span class="h4 sixth-service">$55</span>
+            </div>
+        </div>
+    </div>
+    <div class="package-header">
+        <p class="p-header-text">Our flexible beauty salon pricing plans. <a class="sub-part" href="#">Explore
+                package</a></p>
+    </div>
+    <div class="package">
+        <div class="package-one">
+            <p class="package-off">FLAT 50% OFF</p>
+            <p class="package-name">Bridal makeup</p>
+            <p class="package-about">Special packages for wedding.</p>
+            <div class="p-arrow"><a href="#"><i class="fa-solid fa-arrow-right package-arrow "></i></a></div>
+        </div>
+        <div class="package-two">
+            <p class="package-off">FLAT 50% OFF</p>
+            <p class="package-name">Expert makeup</p>
+            <p class="package-about">Unlock your true beauty potential</p>
+            <div class="p-arrow"><a href="#"><i class="fa-solid fa-arrow-right package-arrow "></i></a></div>
+        </div>
+    </div><br><br>
+    <hr>
+    <div class="brands-header">
+        <div class="brand-text-slot"><span class="a-brands">Associates brandS</span></div>
+        <div class="brand-slot"><span class="all-brands">Brands available</span></div>
+    </div>
+    <div class="brands">
+        <div class="brand-one"><img src="./photos-icons/1.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/2.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/3.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/4.webp" alt=""></div>
+    </div> <br><br>
+    <div class="brands">
+        <div class="brand-one"><img src="./photos-icons/5.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/6.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/7.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/8.webp" alt=""></div>
+    </div>
+    <div class="mid-section">
+        .
+        <div class="focus-of-salon">
+            <span class="focus">Beauty salon focus on</span>
+            <p class="quest">The quest for <br> quality and safety.</p>
+            <span class="same safety">Quality and safety as our absolute priority</span><br> <br>
+            <span class="same">Helping hundreds of millions of women</span><br>
+            <button class="brand-btn">Book appointment</button>
+        </div>
+    </div><br><br>
+    <div class="experts-header">
+        <div class="specialists-text-slot"><span class="specialists">Our specialists</span></div>
+        <div class="expert-slot"><span class="expert">Beauty experts</span></div>
+    </div>
+    <div class="experts-place">
+        <div class=".experts-slot  l">
+        <div class="experts-img-slot slot-one">
+            <i class="fa-brands fa-instagram hide"></i>
+            <i class="fa-brands fa-facebook hide"></i>
+            <i class="fa-brands fa-twitter  hide"></i>
+            <i class="fa-brands fa-dribbble  hide"></i>
+        </div>
+        <div class="expert-info-slot info-slot-one">
+            <p class="expert-name">Jeremy dupont</p>
+            <span class="expert-job">Director</span>
+        </div>
+    </div>
+    <div class=".experts-slot  l">
+        <div class="experts-img-slot slot-two">
+            <i class="fa-brands fa-instagram hide"></i>
+            <i class="fa-brands fa-facebook hide"></i>
+            <i class="fa-brands fa-twitter  hide"></i>
+            <i class="fa-brands fa-dribbble  hide"></i>
+        </div>
+        <div class="expert-info-slot info-slot-two">
+            <p class="expert-name">Johncy parker</p>
+            <span class="expert-job">Consultant</span>
+        </div>
+    </div>
+    <div class=".experts-slot  l">
+        <div class="experts-img-slot slot-three">
+            <i class="fa-brands fa-instagram hide"></i>
+            <i class="fa-brands fa-facebook hide"></i>
+            <i class="fa-brands fa-twitter  hide"></i>
+            <i class="fa-brands fa-dribbble  hide"></i>
+        </div>
+        <div class="expert-info-slot info-slot-three">
+            <p class="expert-name">Matthew taylor</p>
+            <span class="expert-job ab">Makeup</span>
+        </div>
+    </div>
+    <div class=".experts-slot  l ">
+        <div class="experts-img-slot slot-four">
+            <i class="fa-brands fa-instagram hide"></i>
+            <i class="fa-brands fa-facebook hide"></i>
+            <i class="fa-brands fa-twitter  hide"></i>
+            <i class="fa-brands fa-dribbble  hide"></i>
+        </div>
+        <div class="expert-info-slot info-slot-four">
+            <p class="expert-name">Herman miller</p>
+            <a class="expert-job ab">Therapist</a>
+        </div>
+    </div>
+    </div>
+   
+    <div class="rating">
+        <div class="stars">
+            <i class="fa-solid fa-star  star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="visitors">
+            <p> 25,000+ Beauty lovers visited our beauty salon.</p>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="figure">
+            <div class="slide">
+                <p class="main-text">Emma causer</p>
+            </div>
+            <p class="long-text">
+                A wonderfully professional salon, beautiful location and beautifully kept. Great products knowledge.
+            </p>
+            <div class="raring-stars">
+                <i class="fa-solid fa-star  star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+        <div class="figure">
+            <div class="slide">
+                <p class="main-text">Bella roberts</p>
+            </div>
+            <p class="long-text">
+                Dedicated team will do their best to meet your needs and give you your ultimate treatment.
+            </p>
+            <div class="raring-stars">
+                <i class="fa-solid fa-star  star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+        <div class="figure">
+            <div class="slide">
+                <p class="main-text">Lesley simms</p>
+            </div>
+            <div>
+                <p class="long-text"> Perfection isn't just any other salon. It's a complete cut above the rest. Highly
+                    recommended!</p>
+                <div class="raring-stars">
+                    <i class="fa-solid fa-star  star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="contact-us">
+            <p class="contact-text">Contact us</p>
+            <span class="web-name"> beauty salon</span>
+            <p class="salon-address">401 Broadway, 24th Floor New York, NY 10013</p>
+            <span class="phone-no"> Phone: <a href="#">1-800-222-000</a></span>
+            <p class="email-id">Email: <a href="#">[email protected]</a></p>
+        </div>
+    </div>
+    <div class="final">
+        <p>Everyone can discover their hidden beauty. <a class="bok">Book an appointment</a><i
+                class="fa-solid fa-arrow-right arow"></i> </p>
+    </div>
+    <footer>
+        <div class="footer">
+        <div class="logo-slot i "><img src="./photos-icons/demo-beauty-salon-logo-white.webp" alt=""></div>
+        <div class="get-in-touch i"><span class="unite">GET IN TOUCH</span>
+            <p class="salon-address-">401 Broadway, 24th Floor <br> New York, NY 10013</p>
+        </div>
+        <div class="for-help i"><span class="unite">NEED SUPPORT</span>
+            <p class="help-info">1-800-222-000</p>
+            <p class="help-info">[email protected]</p>
+        </div>
+        <div class="platforms i"><span class="unite">CONNECT WITH US</span>
+        <ul>
+            <li class="fa-brands fa-instagram icons"></li>
+            <li class="fa-brands fa-facebook icons"></li>
+            <li class="fa-brands fa-twitter icons"></li>
+        </ul>
+    </div>
+</div>
+    <div class="footer-menu">
+        <a class="footer-menu-item footer-item-a" href="#">Home</a>
+        <a class="footer-menu-item b" href="#">Story</a>
+        <a class="footer-menu-item c" href="#">Services</a>
+        <a class="footer-menu-item d" href="#">Wedding</a>
+        <a class="footer-menu-item e" href="#">Review</a>
+        <a class="footer-menu-item f" href="#">Contact</a>
+    </div>
+    </footer>
+</div>
+
+<div class="mob">
+   
+
+    <div class="award">
+        <div class="mob-first">
+
+            <img class="award-image" src="./photos-icons/demo-beauty-salon-icon-01.webp" alt="">
+            <h3 class="year">Best beauty salon <span class="award-year">award 2023</span></h3>
+            <p class="services">Multi award winning beauty salon services.</p>
+        </div>
+        <div class="mob-discount">
+            <span class="makeup-discount">Get <span class="off">20%</span> off on bridal makeup</span><span
+                class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+    </div> 
+    <div class="mob-about-the-salon">
+        <p class="mob-about">ABOUT THE SALON</p>
+        <div class="mob-about-image">
+            <img class="mob-IMAGE" src="./photos-icons/short-hair-asian-young-for small mob.jpg" alt="">
+        </div>
+        <div class="mob-about-salon-text"> 
+             
+            <h2 class="mob-h2">Body treatments. <br> Skin care beauty.</h2>
+            <p class="mob-about-text">With over 35 years of experience footprint of over 400+ salons in 125 cities across
+                the length and
+                breadth of the country. We have developed a deep understanding of the beauty industry.</p>
+            <button class="mob-story-button">About story</button> <br> <br> <br>
+            <a class="mob-circle-play"><i class="fa-regular fa-circle-play  "></i> Luxury salon</a>
+        </div>
+    </div> 
+    <div class="steps">
+        <div class="step-one">
+            <span class="num">01</span><span class="dash">--</span><span class="point">Excellent care</span>
+            <p class="description ">No compromises</p>
+        </div>
+        <div class="step-two"> <span class="num">02</span><span class="dash">--</span>
+            <span class="point">Cruelty Free</span>
+            <p class="description ">No tested on animals</p>
+        </div>
+        <div class="step-three"> <span class="num">03</span><span class="dash">--</span>
+            <span class="point">Certifiedexperts</span>
+            <p class="description ">Professisanal people</p>
+        </div>
+        
+    </div> 
+    <br>
+    <div class="mob-services-header">
+        <div class="mob-services-text-slot"><span class="mob-services-text">BEAUTY SALON SERVICES</span></div>
+        <div class="mob-services-slot"><span class="mob-services">Makeup and hairstyles</span></div>
+    </div>
+    <div class="mob-services-menu">
+        <div class="mob-service-one a">
+            <div class="mob-service-one-photo"><i class="fa-solid fa-arrow-right mob-ar"></i></div><br>
+            <div class="mob-service-description">
+                <span class="mob-service-name">Hair treatment</span>
+                <p class="mob-service-info">Advanced hair treatment</p>
+            </div>
+        </div>
+        <div class="mob-service-two ">
+            <div class="mob-service-two-photo"><i class="fa-solid fa-arrow-right mob-ar"></i></div><br>
+            <div class="mob-service-description">
+                <span class="mob-service-name mob-s-n-b">Reflexology</span>
+                <p class="mob-service-info mob-s-i-b">Different amounts of pressure</p>
+            </div>
+        </div>
+        <div class="mob-service-three ">
+            <div class="mob-service-three-photo"><i class="mob-fa-solid fa-arrow-right mob-ar"></i></div><br>
+            <div class="mob-service-description">
+                <span class="mob-service-name mob-s-n-c">Makeup</span>
+                <p class="mob-service-info mob-s-i-c">Rethink your lash look</p>
+            </div>
+        </div>
+    
+    
+        <div class="mob-service-four  ">
+            <div class="mob-service-four-photo"><i class="fa-solid fa-arrow-right mob-ar"></i></div><br>
+            <div class="mob-service-description">
+                <span class="mob-service-name mob-s-n-d">Skin care</span>
+                <p class="mob-service-info mob-s-i-d">Believe in your beauty</p>
+            </div>
+        </div>
+        <div class="mob-service-five ">
+            <div class="mob-service-five-photo"><i class="fa-solid fa-arrow-right mob-ar"></i></div><br>
+            <div class="mob-service-description">
+                <span class="mob-service-name s-n-e">Cosmetology</span>
+                <p class="mob-service-info mob-s-i-e">Fabulous in every way</p>
+            </div>
+        </div>
+        <div class="mob-service-six ">
+            <div class="mob-service-six-photo"><i class="fa-solid fa-arrow-right mob-ar"></i></div><br>
+            <div class="mob-service-description">
+                <span class="mob-service-name mob-s-n-f">Grooming</span>
+                <p class="mob-service-info mob-s-i-f">Especially crafted to sui</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="services-slot">
+        <div class="services-prices">
+            <div class="service-one-price all">
+                <div class="service-one-icon"><img class="service-icon"
+                        src="./photos-icons/demo-beauty-salon-icon-02.webp" alt=""></div>
+                <div class="service-about">
+                    <span class="service-tag">Hair wash and dry</span>
+                    <p class="service-slogan">Quick hair wash and blow</p>
+                </div>
+                <span class="h4 first-service">$35</span>
+            </div>
+
+            <div class="service-three-price all">
+                <div class="service-three-icon"><img class="service-icon"
+                        src="./photos-icons/demo-beauty-salon-icon-03.webp" alt=""></i></div>
+                <div class="service-about">
+                    <span class="service-tag">Express makeup</span>
+                    <p class="service-slogan">Lovely on your special day</p>
+                </div>
+                <span class="h4 second-service">$65</span>
+            </div>
+
+            <div class="service-five-price all">
+                <div class="service-five-icon"><img class="service-icon"
+                        src="./photos-icons/demo-beauty-salon-icon-04.webp" alt=""></div>
+                <div class="service-about">
+                    <span class="service-tag">Haircut by expert</span>
+                    <p class="service-slogan">Get the best haircut</p>
+                </div>
+                <span class="h4 third-service">$25</span>
+            </div>
+
+        </div>
+
+        <div class="services-prices">
+            <div class="service-two-price all">
+                <div class="service-two-icon"><img class="service-icon"
+                        src="./photos-icons/demo-beauty-salon-icon-05.webp" alt=""></div>
+                <div class="service-about">
+                    <span class="service-tag">New hair styling</span>
+                    <p class="service-slogan">Trendy and glam hair style</p>
+                </div>
+                <span class="h4 fourth-service">$25</span>
+            </div>
+            <div class="service-four-price all">
+                <div class="service-four-icon"><img class="service-icon"
+                        src="./photos-icons/demo-beauty-salon-icon-06.webp" alt=""></div>
+                <div class="service-about">
+                    <span class="service-tag">Wash and plain dry</span>
+                    <p class="service-slogan">Advanced hair treatment</p>
+                </div>
+                <span class="h4 fifth-service">$45</span>
+            </div>
+            <div class="service-six-price all">
+                <div class="service-six-icon"><img class="service-icon"
+                        src="./photos-icons/demo-beauty-salon-icon-07.webp" alt=""></div>
+                <div class="service-about">
+                    <span class="service-tag m">Organic skin treatment</span>
+                    <p class="service-slogan">Reduce dryness from skin</p>
+                </div>
+                <span class="h4 sixth-service">$55</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="package-header">
+        <p class="p-header-text">Our flexible beauty salon pricing plans.</p> <a class="sub-part" href="#">Explore
+            package</a>
+    </div>
+    <div class="package">
+        <div class="package-one">
+            <p class="off">FLAT 50% OFF</p>
+            <p class="mob-package-name">Bridal makeup</p>
+            <p class="mob-package-about">Special packages for wedding.</p>
+            <div class="p-arrow"><a class="z" href="#"><i class="fa-solid fa-arrow-right package-arrow "></i></a></div>
+        </div>
+        <div class="package-two">
+            <p class="off">FLAT 50% OFF</p>
+            <p class="mob-package-name">Expert makeup</p>
+            <p class="mob-package-about">Unlock your true beauty potential</p>
+            <div class="p-arrow"><a class="z" href="#"><i class="fa-solid fa-arrow-right package-arrow "></i></a></div>
+        </div>
+    </div>
+    <div class="brands-header">
+        <div class="brand-text-slot"><span class="a-brands">Associates brandS</span></div>
+        <div class="brand-slot"><span class="all-brands">Brands available</span></div>
+    </div>
+    <div class="brands">
+        <div class="brand-one"><img src="./photos-icons/1.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/2.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/3.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/4.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/5.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/6.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/7.webp" alt=""></div>
+        <div class="brand-one"><img src="./photos-icons/8.webp" alt=""></div>
+    </div>
+    <div class="mid-section">
+        .
+        <div class="focus-of-salon">
+            <span class="focus">Beauty salon focus on</span>
+            <p class="quest">The quest for <br> quality and safety.</p>
+            <span class="same safety">Quality and safety as our absolute priority</span><br> <br>
+            <span class="same">Helping hundreds of millions of women</span><br>
+            <button class="brand-btn">Book appointment</button>
+        </div>
+    </div>
+    <div class="experts-header">
+        <div class="specialists-text-slot"><span class="specialists">Our specialists</span></div>
+        <div class="expert-slot"><span class="expert">Beauty experts</span></div>
+    </div>
+    <div class="experts-place">
+        <div class=".experts-slot  l">
+            <div class="experts-img-slot slot-one">
+                <i class="fa-brands fa-instagram hide"></i>
+                <i class="fa-brands fa-facebook hide"></i>
+                <i class="fa-brands fa-twitter  hide"></i>
+                <i class="fa-brands fa-dribbble  hide"></i>
+            </div>
+            <div class="expert-info-slot info-slot-one">
+                <p class="expert-name">Jeremy dupont</p>
+                <span class="expert-job">Director</span>
+            </div>
+        </div>
+        <div class=".experts-slot  l">
+            <div class="experts-img-slot slot-two">
+                <i class="fa-brands fa-instagram hide"></i>
+                <i class="fa-brands fa-facebook hide"></i>
+                <i class="fa-brands fa-twitter  hide"></i>
+                <i class="fa-brands fa-dribbble  hide"></i>
+            </div>
+            <div class="expert-info-slot info-slot-two">
+                <p class="expert-name">Johncy parker</p>
+                <span class="expert-job">Consultant</span>
+            </div>
+        </div>
+        <div class=".experts-slot  l">
+            <div class="experts-img-slot slot-three">
+                <i class="fa-brands fa-instagram hide"></i>
+                <i class="fa-brands fa-facebook hide"></i>
+                <i class="fa-brands fa-twitter  hide"></i>
+                <i class="fa-brands fa-dribbble  hide"></i>
+            </div>
+            <div class="expert-info-slot info-slot-three">
+                <p class="expert-name">Matthew taylor</p>
+                <span class="expert-job ab">Makeup</span>
+            </div>
+        </div>
+        <div class=".experts-slot  l ">
+            <div class="experts-img-slot slot-four">
+                <i class="fa-brands fa-instagram hide"></i>
+                <i class="fa-brands fa-facebook hide"></i>
+                <i class="fa-brands fa-twitter  hide"></i>
+                <i class="fa-brands fa-dribbble  hide"></i>
+            </div>
+            <div class="expert-info-slot info-slot-four">
+                <p class="expert-name">Herman miller</p>
+                <a class="expert-job ab">Therapist</a>
+            </div>
+        </div>
+    </div>
+    <div class="rating">
+        <div class="stars">
+            <i class="fa-solid fa-star  star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="visitors">
+            <p> 25,000+ Beauty lovers visited our beauty salon.</p>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="mob-figure mob-figure-one">
+            <div class="mob-slide">
+                <p class="mob-main-text">Emma causer</p>
+            </div>
+            <p class="mob-long-text">
+                A wonderfully professional salon, beautiful location and beautifully kept. Great products knowledge.
+            </p>
+            <div class="mob-raring-stars">
+                <i class="fa-solid fa-star  star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+        <div class="mob-figure mob-figure-two">
+            <div class="mob-slide">
+                <p class="mob-main-text">Bella roberts</p>
+            </div>
+            <p class="mob-long-text">
+                Dedicated team will do their best to meet your needs and give you your ultimate treatment.
+            </p>
+            <div class="mob-raring-stars">
+                <i class="fa-solid fa-star  star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div> 
+        <div class="mob-figure mob-figure-three">
+            <div class="mob-slide">
+                <p class="mob-main-text">Lesley simms</p>
+            </div>
+            <div>
+                <p class="mob-long-text"> Perfection isn't just any other salon. It's a complete cut above the rest. Highly
+                    recommended!</p>
+                <div class="mob-raring-stars">
+                    <i class="fa-solid fa-star  star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="contact-us">
+            <p class="contact-text">Contact us</p>
+            <span class="web-name"> beauty salon</span>
+            <p class="salon-address">401 Broadway, 24th Floor New York, NY 10013</p>
+            <span class="phone-no"> Phone: <a href="#">1-800-222-000</a></span>
+            <p class="email-id">Email: <a href="#">[email protected]</a></p>
+        </div>
+    </div>
+    <div class="final">
+        <p class="hidden-beauty">Everyone can discover their hidden beauty. <a class="bok">Book an appointment</a><i
+              class="fa-solid fa-arrow-right"></i> </p>
+    </div>
+    <footer> 
+        <div class="footer">
+        <div class="logo-slot i "><img src="./photos-icons/demo-beauty-salon-logo-white.webp" alt=""></div>
+        <div class="get-in-touch i"><span class="unite">GET IN TOUCH</span>
+            <p class="salon-address-">401 Broadway, 24th Floor <br> New York, NY 10013</p>
+        </div>
+        <div class="for-help i"><span class="unite">NEED SUPPORT</span>
+            <p class="help-info">1-800-222-000</p>
+            <p class="help-info">[email protected]</p>
+        </div>
+        <div class="platforms i"><span class="unite">CONNECT WITH US</span>
+        <ul>
+            <li class="fa-brands fa-instagram icons"></li>
+            <li class="fa-brands fa-facebook icons"></li>
+            <li class="fa-brands fa-twitter icons"></li>
+        </ul>
+    </div>
+</div>
+    
+    </footer>
+</div>
+
+</body>
+<script> 
+	function showsidebar() {
+		const sidebar = document.querySelector('.sidebar');
+		sidebar.style.display = 'flex'
+	}
+	function hidesidbar() {
+		const sidebar = document.querySelector('.sidebar');
+		sidebar.style.display = 'none'
+	}
+    const text = document.querySelector('.text p');
+if (text) {
+  text.innerHTML = text.innerText.split('').map((char, i) => {
+    return `<span style="transform: rotate(${i * 8.3}deg)">${char}</span>`;
+  }).join('');
+}
+    
+</script>
+</html>
